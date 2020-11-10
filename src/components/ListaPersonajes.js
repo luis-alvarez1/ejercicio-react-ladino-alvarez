@@ -13,7 +13,11 @@ export const ListaPersonajes = ({ personajes, serie }) => {
             personajes.map((personaje, i) => {
               return (
                 <li className="list-group-item" key={i}>
-                  {personaje.name && personaje.name}
+                  {personaje.name &&
+                    personaje.name.replace(
+                      /^./,
+                      personaje.name[0].toUpperCase()
+                    )}
                 </li>
               );
             })}

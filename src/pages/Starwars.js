@@ -16,13 +16,13 @@ export const Starwars = () => {
     return (
       <>
         {loading ? (
-          <div className="alert alert-primary" role="alert">
+          <div className="alert alert-primary p-4" role="alert">
             Cargando...
           </div>
         ) : (
           <div>
             <GoBackButton />
-            <h1>Personajes de StarWars!</h1>
+            <h2 className="ml-3">Personajes de StarWars!</h2>
             <ListaPersonajes personajes={starWarsCharacters} serie="StarWars" />
           </div>
         )}
