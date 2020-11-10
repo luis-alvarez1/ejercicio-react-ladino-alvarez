@@ -1,9 +1,11 @@
 import React from "react";
 import { BotonRedireccionar } from "../components/BotonRedireccionar";
+import { Formulario } from "../components/Formulario";
 
 export const Home = () => {
   return (
     <div>
+      <Formulario />
       <div className="jumbotron">
         <h1 className="display-4">Bienvenido</h1>
         <p className="lead">

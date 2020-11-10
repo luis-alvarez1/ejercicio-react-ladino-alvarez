@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 export const BotonRedireccionar = ({ page }) => {
-  console.log(("/" + page).toLowerCase().trim());
   return (
     <>
       <div>

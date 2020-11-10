@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route, BrowserRouter as ReactRouter } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import { Starwars } from "../pages/Starwars";
 import { Pokemon } from "../pages/Pokemon";
 import { Home } from "../pages/Home";

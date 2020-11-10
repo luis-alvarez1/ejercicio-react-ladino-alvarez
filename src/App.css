@@ -2,3 +2,16 @@
   width: 200px;
   margin: 10px;
 }
+
+.lista-personajes {
+  height: 300px;
+  margin-bottom: 40px;
+}
+
+.lista-container {
+  padding: 40px;
+}
+
+.lista-personajes-content {
+  overflow-y: auto;
+}
